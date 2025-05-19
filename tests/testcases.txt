@@ -1,0 +1,34 @@
+echo Hello World
+ls /
+pwd
+cd /
+pwd
+ls /does/not/exist
+whoami
+kaka
+ls |
+ls | cat
+which ls
+where ls
+ls > toto ; rm toto
+echo Hello World
+pwd
+ls
+echo $PWD
+whoami
+cd /
+pwd
+cd /tmp
+pwd
+cd /does/not/exist
+ls /does/not/exist
+mkdir -p /tmp/test_shell_dir
+sleep 1
+true
+false
+echo foo > /tmp/test_output.txt
+cat /tmp/test_output.txt
+rm -f /tmp/test_output.txt
+exit
+ls ; (ls)
+echo $PWD
